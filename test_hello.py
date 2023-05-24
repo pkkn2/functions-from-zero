@@ -1,3 +1,3 @@
 
 def test_hello():
-    return true
+    return True
