@@ -1,3 +1,4 @@
+from wikibot import scrape
 
 def test_hello():
-    return True
+    assert "Microsoft" in scrape("Microsoft")
